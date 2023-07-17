@@ -6,7 +6,7 @@
 {-# LANGUAGE TypeFamilies #-}
 {-# LANGUAGE CPP #-}
 
-module Network.GRPC.HTTP2.ProtoLens where
+module Network.GRPC.HTTP2.ProtoLens (RPC) where
 
 import           Data.Binary.Builder (fromByteString, singleton, putWord32be)
 import           Data.Binary.Get (getByteString, getInt8, getWord32be, runGetIncremental)
